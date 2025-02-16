@@ -15,7 +15,7 @@ Este projeto realiza o monitoramento de dispositivos de rede utilizando SNMP (Si
 - Node.js (versão 12 ou superior)
 - Dependências do npm (veja abaixo)
 
-Funções Principais
+## Funções Principais
 - **loadDevicesFromFile: Carrega dispositivos a partir de um arquivo JSON local.
 - **loadDevicesFromAPI: Carrega dispositivos a partir de uma API.
 - **saveDevicesToFile: Salva a lista de dispositivos no arquivo local.
