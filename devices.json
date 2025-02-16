@@ -1,0 +1,9 @@
+[
+  {
+    "ip": "192.168.1.1",
+    "snmpCommunity": "public",
+    "snmpOids": [
+      "0.0.0.0.0"
+    ]
+  }
+]
