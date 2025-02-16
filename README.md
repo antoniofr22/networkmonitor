@@ -16,19 +16,15 @@ Este projeto realiza o monitoramento de dispositivos de rede utilizando SNMP (Si
 - Dependências do npm (veja abaixo)
 
 Funções Principais
-loadDevicesFromFile: Carrega dispositivos a partir de um arquivo JSON local.
-loadDevicesFromAPI: Carrega dispositivos a partir de uma API.
-saveDevicesToFile: Salva a lista de dispositivos no arquivo local.
-getSNMPData: Coleta dados SNMP de um dispositivo.
-getICMPData: Realiza um ping (ICMP) para verificar a conectividade e latência de um dispositivo.
-monitorDevice: Monitora um único dispositivo, coletando dados SNMP e ICMP.
-monitorDevices: Monitora todos os dispositivos em uma lista, com controle de concorrência.
-updateDevices: Atualiza os dispositivos a partir da API.
-scheduleUpdates: Agenda a atualização periódica dos dispositivos.
-Personalização
-Dispositivos e OIDs: Para alterar os dispositivos ou os OIDs SNMP monitorados, edite o arquivo JSON de dispositivos.
-Configuração do Serviço Web: Para mudar a URL de envio de dados, altere o valor de apiUrl no código.
-
+- **loadDevicesFromFile: Carrega dispositivos a partir de um arquivo JSON local.
+- **loadDevicesFromAPI: Carrega dispositivos a partir de uma API.
+- **saveDevicesToFile: Salva a lista de dispositivos no arquivo local.
+- **getSNMPData: Coleta dados SNMP de um dispositivo.
+- **getICMPData: Realiza um ping (ICMP) para verificar a conectividade e latência de um dispositivo.
+- **monitorDevice: Monitora um único dispositivo, coletando dados SNMP e ICMP.
+- **monitorDevices: Monitora todos os dispositivos em uma lista, com controle de concorrência.
+- **updateDevices: Atualiza os dispositivos a partir da API.
+- **scheduleUpdates: Agenda a atualização periódica dos dispositivos.
 
 Licença
 Este projeto está licenciado sob a MIT License.
